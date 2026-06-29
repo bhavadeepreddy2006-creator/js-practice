@@ -1,4 +1,4 @@
-// console.log("Hello")
+console.log("Hello")
 
 // Funtions:It is a reusble block of code which performs some action 
 
@@ -6,117 +6,118 @@
 // def function_name(paramenters):
 //     statements
 
-// functnction_name(arguments)
+functnction_name(arguments)
 
 // fucntions example in js
 
-// function greet(){
-//     // code to execute
-//     console.log("Welcome students");
-// }
+function greet(){
+    // code to execute
+    console.log("Welcome students");
+}
 
 // calling the funtion
-// greet();
-// greet();
+greet();
+greet();
 
-// function greeting(name){
-//     // console.log("Hello"+name); //outdated
-//     console.log(`Hello ${name}`); //templete litrals
-// }
-// greeting("sai");
+function greeting(name){
+    // console.log("Hello"+name); //outdated
+    console.log(`Hello ${name}`); //templete litrals
+}
+greeting("sai");
 
-// function sum(a,b){
-//     console.log(`sum is ${a+b}`);
-// }
-// sum(10,10);
+function sum(a,b){
+    console.log(`sum is ${a+b}`);
+}
+sum(10,10);
 
 // return: send  backs the value the value to where the function is called
 
-// function sub(a,b){
-//     return a-b;
-// }
-// let result = sub(5,10);
-// console.log(result);
+function sub(a,b){
+    return a-b;
+}
+let result = sub(5,10);
+console.log(result);
 
-// function squ(a){
-//     return a*a;
-//     console.log("Finished"); //exectution stops at return
-// }
-// let result = squ(5);
-// console.log(result);
+function squ(a){
+    return a*a;
+    console.log("Finished"); //exectution stops at return
+}
+let result = squ(5);
+console.log(result);
 
-// function test(){
-//     return "Hello";
-//     console.log("This code will never be executed");
-// }
-// let test1 = test();
-// console.log(test1);
+function test(){
+    return "Hello";
+    console.log("This code will never be executed");
+}
+let test1 = test();
+console.log(test1);
 
 // variable scopes
 
-// let college = "CITY";
-// function showcollege(){
-//     console.log(college)
-// }
-// showcollege()
+let college = "CITY";
+function showcollege(){
+    console.log(college)
+}
+showcollege()
 
-// function showage(){
-//     let age =  22
-//     console.log(age)
-// }
-// showage()
-// console.log(college);
-// console.log(age);
+function showage(){
+    let age =  22
+    console.log(age)
+}
+showage()
+console.log(college);
+console.log(age);
 
 // Hoistion:
 // js moves declarations to the top before the execution
 
-// var name1;
+var name1;
 
-// console.log(name1);
+console.log(name1);
 
-// name1 = "js";
+name1 = "js";
 
 //How js sees exactly
-// var name;
-// console.log(name1);
-// name1 = "manoj"
+var name;
+console.log(name1);
+name1 = "manoj"
 
-// console.log(age1)
+console.log(age1)
 
-// let age1 = 23;
+let age1 = 23;
 
 //hosting with const
 
-// console.log(city)
+console.log(city)
 
-// const city="vij"
+const city="vij"
 
-// greeting1()
+greeting1()
 
-// function greeting1(){
-//     console.log("Hello")
-// }
+function greeting1(){
+    console.log("Hello")
+}
 
 // Funvtions are completely hoisted
 
 // Function experession:
 // store inside a variable
 
-// let result = greeting1()
+let result = greeting1()
 
-// let display = function(){
-//     console.log("Hello students")
-// }
-// // calling the variable 
-// display()
+let display = function(){
+    console.log("Hello students")
+}
+// calling the variable 
+display()
 
 //hoisting with function expression
-// test2()
+test2()
 
-// let test2 = function(){
-//     console.log("Hi")
-// }
+let test2 = function(){
+    console.log("Hi")
+}
+
 //example 2:
 
 let calculate_area = function(length,width){
@@ -204,11 +205,11 @@ for (i=0;i<arr.length;i++){
 console.log(largest)
 
 //push -- adding element
-// arr.push(5)
-// console.log(arr)
+arr.push(5)
+console.log(arr)
 
-// arr.push(19,44)
-// console.log(arr)
+arr.push(19,44)
+console.log(arr)
 
 //remove the last element
 arr.pop()
@@ -285,6 +286,17 @@ console.log(str[2])
 
 // string length
 console.log(str.length)
+
 // Immutable 
 str[1] = "k"
 console.log(str)
+
+// Traverse over the string
+for (i=0;i<str.length;i++){
+    console.log(str[i])
+}
+
+// using for..of
+for(let ch of str){
+    console.log(ch)
+}
