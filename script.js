@@ -249,3 +249,22 @@ console.log(veggies)
 
 veggies.splice(1,0,"bottelgaurd")
 console.log(veggies)
+
+// slice -->creates a copy of array
+// a portion of array
+// array.slice(sart,end)
+
+let nums=[10,20,30,40,50]
+
+let result1 = nums.slice(0,3)
+console.log(result1)
+
+// copy entire array
+// let nums = [10,20,30,40,50]
+
+// let result1 = nums.slice()
+// console.log(result1)
+
+// Task: arr=[10,20,30,40,50,60]
+// create a new array containing elements
+// from index 2-4
