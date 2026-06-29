@@ -189,26 +189,26 @@ for(let fruit of fruits){
     console.log(fruit)
 }
 let sum1=0
-let a = [10,20,30,40,50]
-for (i=0;i<a.length;i++){
-    sum1 += a[i]
+let arr = [10,20,30,40,50]
+for (i=0;i<arr.length;i++){
+    sum1 += arr[i]
 }
 console.log(sum1)
 
 let largest = 0
-for (i=0;i<a.length;i++){
-    if(a[i] > largest){
-        largest = a[i]
+for (i=0;i<arr.length;i++){
+    if(arr[i] > largest){
+        largest = arr[i]
     }
 }
 console.log(largest)
 
 //push -- adding element
-arr.push(5)
-console.log(arr)
+// arr.push(5)
+// console.log(arr)
 
-arr.push(19,44)
-console.log(arr)
+// arr.push(19,44)
+// console.log(arr)
 
 //remove the last element
 arr.pop()
@@ -240,3 +240,12 @@ console.log(arr)
 // Array.splice(starIndex,delete_index,new_value)
 
 let veggies = ["carrot","beetrrot", "Brinjal"]
+//                  0       1           2
+veggies.splice(1,1)//where second (1) will delete the element form index 1 and the splice is also started from 1
+console.log(veggies)
+
+veggies.splice(1,0,"bittegaurd")
+console.log(veggies)
+
+veggies.splice(1,0,"bottelgaurd")
+console.log(veggies)
