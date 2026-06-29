@@ -203,5 +203,40 @@ for (i=0;i<a.length;i++){
 }
 console.log(largest)
 
+//push -- adding element
+arr.push(5)
+console.log(arr)
 
-// 
+arr.push(19,44)
+console.log(arr)
+
+//remove the last element
+arr.pop()
+console.log(arr)
+
+//restoring the removed element
+let removed = arr.pop();
+console.log(removed)
+
+//remove the first element
+arr.shift();
+console.log(arr);
+
+let firstremoved = arr.shift();
+console.log(firstremoved);
+
+//add element at the beginning
+arr.unshift(10);
+console.log(arr)
+
+// python --slicing
+// arr[start:end:step]
+// splice() -- js
+// used for -- 1.adding
+//                2.del
+//                3.replaceing element
+
+// Syntax:
+// Array.splice(starIndex,delete_index,new_value)
+
+let veggies = ["carrot","beetrrot", "Brinjal"]
