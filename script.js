@@ -268,3 +268,23 @@ console.log(result1)
 // Task: arr=[10,20,30,40,50,60]
 // create a new array containing elements
 // from index 2-4
+
+// string::sequence of characters
+// closed '',"",``
+// let name = "bhvadeep";
+// let name1 = "bhavadeep";
+// let name2 = "bhavadeep";
+
+// Indexing in strings:
+let str = "hello"
+        // 01234
+
+console.log(str[0])
+console.log(str[1])
+console.log(str[2])
+
+// string length
+console.log(str.length)
+// Immutable 
+str[1] = "k"
+console.log(str)
